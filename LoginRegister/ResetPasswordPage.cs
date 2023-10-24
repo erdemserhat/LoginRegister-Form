@@ -227,7 +227,7 @@ namespace LoginRegister
                         string smtpServer = "smtp.gmail.com"; // Gmail SMTP sunucu adresi
                         int smtpPort = 587; // Gmail SMTP sunucu port numarası
                         string smtpUsername = "javatester60@gmail.com"; // Gmail hesap e-posta adresiniz
-                        string smtpPassword = "private to me :) "; // Gmail hesap şifreniz
+                        string smtpPassword = "fvtz zjnx hrtj vcwc"; // Gmail hesap şifreniz
 
                         string fromEmail = "javatester60@gmail.com"; // Gönderen e-posta adresi (Gmail hesabınız)
                         string toEmail = resetPasswordEmailTextBox.Text; // Alıcı e-posta adresi
