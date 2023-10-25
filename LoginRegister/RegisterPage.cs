@@ -135,7 +135,7 @@ namespace LoginRegister
                     password = registerPasswordTextBox.Text;
                 }
 
-                isFormValid = true;
+               
 
                 //Password and Private Answer Confirmation
                 string privateAnswerConfirm = registerConfirmPrivateAnswerTextBox.Text;
@@ -154,7 +154,7 @@ namespace LoginRegister
                     throw new NotMatchedPasswordsAnswersException("Your passwords don't match");
                 }
 
-
+                isFormValid = true;
 
             }
             catch (UsernameIlegalArgumentException ex)
